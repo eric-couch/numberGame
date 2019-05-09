@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function() {
   //console.log(rnd);
 });
 
-function guess() {
+function makeGuess() {
   let ourGuess = document.querySelector("#guess");
   let list = document.querySelector("#listOfGuesses");
 

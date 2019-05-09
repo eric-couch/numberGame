@@ -4,8 +4,10 @@
   </head>
   <body>
     Guess a number between 1 - 100<br />
-    <input type="number" min="1" max="100" id="guess" />
-    <button id="guessBtn" onclick="guess();">guess</button>
+    <form onsubmit="return false;">
+      <input type="number" min="1" max="100" id="guess" />
+      <input type="submit" value="guess" id="guessBtn" onclick="makeGuess();" />
+    </form>
     <ul id="listOfGuesses"></ul>
   </body>
 </html>
